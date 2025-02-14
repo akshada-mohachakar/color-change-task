@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.219);
+  text-align: center;
+  border-radius: 20px;
+}
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Buttons */
+.color-button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Color Display Div */
+#orange {
+  background-color: #ff5733;
+}
+
+#white {
+  background-color: #ffffff;
+}
+#Purple {
+  background-color: #a133ff;
+}
+#pink {
+  background-color: #ff33a1;
+}
+#blue {
+  background-color: #3357ff;
+}
+#red {
+  background-color: #ff3333;
+}
+#yellow {
+  background-color: #f5ff33;
+}
